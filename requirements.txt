@@ -1,0 +1,11 @@
+Flask==1.1.2  
+flask-sqlalchemy==2.4.4  # ORM  역할을 한다 orm 이란 데이터베이스와 모델 클레스를 매핑해주는 역할이라고 생각하면된다
+SQLAlchemy==1.3.20 
+Flask-Migrate==2.5.3 # flask는 models를 사용하려면 migrate를 할 수 있는 패키지를 깔아야함
+Flask-Script==2.0.6 
+Flask-Cors==3.0.9
+requests==2.25.0 # api를 불러올 때 필요한 패키지이다 마이크로 서비스들 간의 소통할 수 있는 방법 중 동기적으로 진행할 수 있는 것
+mysqlclient==2.0.1 #mysqlclient는 migrate 할 때 필수임
+pika==1.1.0 #마이크로 서비스들 간의 소통할 수 있는 비동기적으로 진행할 수 있는 package
+itsdangerous==1.1.0 # 플라스크 작동 안 되서 의존성으로 인해 깔았음
+markupsafe==1.1.1 
